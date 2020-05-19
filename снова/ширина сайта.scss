@@ -1,0 +1,30 @@
+._container {
+   max-width: $mw+px;
+   margin: 0 auto;
+
+   @media (max-width: $md1+px) {
+      max-width: 970px;
+   }
+
+   @media (max-width: $md2+px) {
+      max-width: 750px;
+   }
+
+   @media (max-width: $md3+px) {
+      max-width: none;
+      padding: 0 10px;
+   }
+}
+
+
+
+
+
+
+max-width: $mw+px;
+height: 75px;
+width: 2005px;
+margin: 0 auto;
+background-color: blue($color: #000000);
+display: flex;
+align-items: center;
